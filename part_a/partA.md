@@ -30,30 +30,35 @@
 
 
 ## No.2
-What is the difference between null and undefined in JavaScript?
-Undefined is when a value is declared but not assigned a value while  null is assigned to a variable to show that it has no value
+ What is the difference between null and undefined in JavaScript?
+
+    Undefined is when a value is declared but not assigned a value while  null is assigned to a variable to show that it has no value
 
 
 ## No.3
-Explain the difference between primitive and reference data types in JavaScript.
-- Primitive data types are the built-in data types stored by value while reference data types are stored by reference
-- Primitive data types are immutable while reference data tpes are mutable
+ Explain the difference between primitive and reference data types in JavaScript.
+
+    - Primitive data types are the built-in data types stored by value while reference data types are stored by reference
+    - Primitive data types are immutable while reference data tpes are mutable
 
 ## No.4
-What is the typeof operator used for? Provide two examples
-The typeof operator helps to find the data type of a JavaScript variable
-E.g typeof "Dorothy"     // Returns "string"
-    typeof 90            // Returns "number"
+ What is the typeof operator used for? Provide two examples
+
+    The typeof operator helps to find the data type of a JavaScript variable
+    E.g typeof "Dorothy"     // Returns "string"
+        typeof 90            // Returns "number"
 
 
 ## No.5
  Explain the concept of type coercion in JavaScript. Provide an example of implicit type coercion.
-Type coercion is the automatic or implicit conversion of one data type to another
--Implicit type coercion is where JavaScript automatically converts a value to the required type for an operation without you doing anything.
-e.g let result = 16 + "Volvo", 16 is converted to string to give output "16Volvo"
+
+    Type coercion is the automatic or implicit conversion of one data type to another
+    -Implicit type coercion is where JavaScript automatically converts a value to the required type for an operation without you doing anything.
+    e.g let result = 16 + "Volvo", 16 is converted to string to give output "16Volvo"
 
 ## No.6
  What is the difference between == and === in JavaScript?
+
     The == operator compares values of two operands, but it does not consider their types
                     while  
     the === operator compares both the value and the type of the two operands
@@ -61,6 +66,7 @@ e.g let result = 16 + "Volvo", 16 is converted to string to give output "16Volvo
 
 ## No.7
 Define and differentiate between mutable and immutable data types in JavaScript, providing one example for each.
+
     Mutable data types are those whose values can be changed or modified after the variable is created e.g objects
                     while
     Immutable data types are those whose values cannot be changed once they are created e.g strings 
